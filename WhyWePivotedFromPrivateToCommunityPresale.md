@@ -4,15 +4,16 @@
 
 ---
 
-## Hook — From Closed Rooms to Open Rails
+## From Closed Rooms to Open Rails
 
 Crypto doesn’t need another pitch; it needs working rails that ordinary users can trust. After talking with builders, traders, and long‑term holders across our networks, a pattern emerged: private rounds were fast, but they created information asymmetry, unclear obligations, and a lag between capital and product reality. We’re fixing that with a **Community Presale** that runs entirely on‑chain and connects directly to the product it funds.
 
 ---
 
-## Setup — What FUZE.ac Is
+## What FUZE.ac Is
 
-FUZE.ac is a **utility‑first liquidity & income platform** for token ecosystems. Think of it as the operating system that helps a token behave like a micro‑public company:
+FUZE.ac is a **utility‑first liquidity & income platform** for token ecosystems **—with a Telegram-native consumer app** that puts these rails directly where crypto lives. Think of it as the operating system that helps a token behave like a micro-public company:
+- **Telegram-Native Consumer App:** mini-app + bot with verification gates, role-based access, safer payments (idempotent by design), quiet-hour alerts, multi-language content, referral links/leaderboards, on-chain claiming, and public status boards.
 - **PlayHub (Token Utility Amplifier):** plug tokens into mini‑apps and games for instant utility and demand. Projects can rent modules and tie real usage to rewards.
 - **AI Market Maker (MM):** exchange‑adapter stack across 40+ CEXs/DEXs that manages spreads, depth, unlock absorption, and compliance modes.
 - **OTC Deal Engine:** KPI‑bonded escrows and structured deals to prevent dump‑and‑dilute behavior.
@@ -23,7 +24,7 @@ All sensitive actions—identity, payments, claims—flow through **idempotent**
 
 ---
 
-## Tension — What Wasn’t Working with Private Rounds
+## What Wasn’t Working with Private Rounds
 
 Private allocation deals optimized for speed and headline names, not for alignment:
 - Off‑chain terms led to inconsistent expectations about unlocks, liquidity support, or product deliverables.
@@ -34,7 +35,7 @@ We wanted the opposite: **first‑class community access, determinism, and day�
 
 ---
 
-## Turn / Insight — The Community Presale
+## The Community Presale
 
 We redesigned our raise around three principles: **fair access, verifiable rules, and live utility.**
 
@@ -56,7 +57,7 @@ We redesigned our raise around three principles: **fair access, verifiable rules
 
 ---
 
-## Proof & Examples — Why These Mechanics Matter
+## Why These Mechanics Matter
 
 - **Unlock Discipline:** Vesting begins at TGE with **10% unlocked immediately**, a **30‑day cliff**, and the remaining **90% unlocking daily over 200 days**. This smooths supply and reduces incentive to rush exits. You can claim any unlocked portion anytime from the Vesting page.
 - **Operational Transparency:** Price feed, contract addresses, and vesting math are visible in‑app; key admin controls are deliberately narrow (e.g., the ability to update price feeds or hit an emergency pause), while all economic rules live in code.
@@ -68,7 +69,7 @@ In short, **code enforces the promises**—and the product modules that benefit 
 
 ---
 
-## Application — How to Join (3 Minutes)
+## How to Join (3 Minutes)
 
 1) **Connect Wallet** at the presale portal. Supported payments: **ETH / USDT / USDC** on the specified network.  
 2) **Enter Amount**. The smart contract calculates tokens and **auto‑refunds** any excess if you cross a tier.  
@@ -78,19 +79,10 @@ In short, **code enforces the promises**—and the product modules that benefit 
 
 ---
 
-## Counterpoints — What Could Go Wrong (and Our Responses)
-
-- **“Crypto is volatile.”** True. Vesting and adaptive liquidity help smooth shocks, but price will move. We build real utility and real revenues to counter pure speculation.
-- **“Referrals can be gamed.”** We prevent self‑referrals, monitor suspicious overlap (e.g., shared payout wallets), and reserve the right to void fraudulent rewards. Leaderboards and delays for risky patterns reduce abuse incentives.
-- **“On‑chain UX can be hard.”** The portal abstracts the heavy lifting—idempotent transactions, blended pricing, and refunds happen under the hood. Clear tooltips explain the math before you click.
-- **“Will listings create sell‑pressure?”** The unlock profile and AI‑MM coordination aim to keep spreads tight and absorb inventory around catalysts. Our OTC engine provides structured paths for larger flows without harming markets.
-
----
-
 ## Near‑Term Roadmap — 2 to 6 Weeks
 
 - **Verification Gating:** role‑based access and approval trails for investors and partners.
-- **Listings + Refund Logic:** codified pathways for reversible actions and recourse.
+- **Listings**: structured listing workflows and change management across venues.
 - **Events Ingestion & Reliability Signals:** public status boards as modules graduate.
 - **Rewards Steady‑State:** tiered points, cooldowns, anti‑fraud holds, and clearer summaries for referral earnings.
 
